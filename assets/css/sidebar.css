@@ -1,0 +1,44 @@
+.sidebar,
+.sidebar__nav {
+  background-color: #d2d2d2;
+}
+#sidebar {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sidebar__item--btn,
+.sidebar__item {
+  display: flex;
+  height: 50px;
+  padding: 40px 0;
+  text-align: center;
+  align-items: center;
+  border-bottom: solid 1px;
+  transition: all 0.2s ease;
+}
+
+.sidebar__item:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* sáng lên một chút */
+  transform: scale(1.03); /* to lên nhẹ */
+  transition: all 0.2s ease; /* hiệu ứng mượt */
+  border-radius: 6px; /* bo góc nhẹ nếu cần */
+  cursor: pointer; /* hiển thị con trỏ */
+}
+
+.sidebar__link {
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sidebar__link .sidebar__icon {
+  margin-right: 20px;
+  filter: brightness(1.2);
+}
+
+.sidebar__button {
+  background: red;
+  width: 100%;
+  padding: 0 !important;
+  color: #191919;
+}

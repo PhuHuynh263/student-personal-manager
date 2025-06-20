@@ -1,24 +1,71 @@
-<aside class="bg-light p-3 vh-100 border-end">
-  <nav class="nav flex-column">
-    <a class="nav-link text-dark fw-medium" href="/index.html">🏠 Tổng quan</a>
-    <a class="nav-link text-dark" href="/pages/profile.html"
-      >👤 Thông tin cá nhân</a
-    >
-    <a class="nav-link text-dark" href="/pages/time-tracker.html"
-      >⏱ Quản lý thời gian</a
-    >
-    <a class="nav-link text-dark" href="/pages/calendar.html"
-      >📅 Lịch học & cá nhân</a
-    >
-    <a class="nav-link text-dark" href="/pages/goals.html"
-      >🎯 Mục tiêu học tập</a
-    >
-    <a class="nav-link text-dark" href="/pages/subjects.html"
-      >📘 Học phần & tài liệu</a
-    >
-    <a class="nav-link text-dark" href="/pages/notes.html">📝 Ghi chú</a>
-    <a class="nav-link text-dark" href="/pages/habits.html"
-      >🌿 Thói quen tích cực</a
-    >
+<aside class="sidebar p-3">
+  <!-- Khối sidebar, chứa toàn bộ phần menu bên trái -->
+
+  <nav class="sidebar__nav nav flex-column">
+    <!-- sidebar__nav: phần chứa các liên kết chức năng -->
+
+    <div class="sidebar__item">
+      <a class="sidebar__link nav-link text-dark fw-medium" href="/index.html">
+        <div class="sidebar__icon">🏠</div>
+        <div class="sidebar__text">Tổng quan</div>
+      </a>
+    </div>
+
+    <div class="sidebar__item">
+      <a class="sidebar__link nav-link text-dark" href="/pages/profile.html">
+        <div class="sidebar__icon">👤</div>
+        <div class="sidebar__text">Thông tin cá nhân</div>
+      </a>
+    </div>
+
+    <div class="sidebar__item">
+      <a
+        class="sidebar__link nav-link text-dark"
+        href="/pages/time-tracker.html"
+      >
+        <div class="sidebar__icon">⏱</div>
+        <div class="sidebar__text">Quản lý thời gian</div>
+      </a>
+    </div>
+
+    <div class="sidebar__item">
+      <a class="sidebar__link nav-link text-dark" href="/pages/calendar.html">
+        <div class="sidebar__icon">📅</div>
+        <div class="sidebar__text">Lịch học & cá nhân</div>
+      </a>
+    </div>
+
+    <div class="sidebar__item">
+      <a class="sidebar__link nav-link text-dark" href="/pages/goals.html">
+        <div class="sidebar__icon">🎯</div>
+        <div class="sidebar__text">Mục tiêu học tập</div>
+      </a>
+    </div>
+
+    <div class="sidebar__item">
+      <a class="sidebar__link nav-link text-dark" href="/pages/subjects.html">
+        <div class="sidebar__icon">📘</div>
+        <div class="sidebar__text">Học phần & tài liệu</div>
+      </a>
+    </div>
+
+    <div class="sidebar__item">
+      <a class="sidebar__link nav-link text-dark" href="/pages/notes.html">
+        <div class="sidebar__icon">📝</div>
+        <div class="sidebar__text">Ghi chú</div>
+      </a>
+    </div>
+
+    <div class="sidebar__item">
+      <a class="sidebar__link nav-link text-dark" href="/pages/habits.html">
+        <div class="sidebar__icon">🌿</div>
+        <div class="sidebar__text">Thói quen tích cực</div>
+      </a>
+    </div>
+    <div class="sidebar__item--btn" style="border-bottom: none">
+      <button class="sidebar__button btn">Log out</button>
+    </div>
   </nav>
 </aside>
+
+<link rel="stylesheet" href="../assets/css/sidebar.css" />

@@ -1,0 +1,27 @@
+.header {
+  padding: 10px 0;
+  background-color: #191919;
+}
+
+.header__container {
+  background-color: #191919;
+}
+
+.header__title {
+  color: #d2d2d2;
+  text-align: center;
+}
+
+.header__button {
+  padding: 10px 10px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #d2d2d2;
+  color: #191919;
+}
+
+.header__button:hover {
+  opacity: 0.9;
+}
